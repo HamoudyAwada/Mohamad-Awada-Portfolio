@@ -63,3 +63,8 @@ a:hover{
 #email{
     font-size: 1em;
 }
+
+.icon{
+    display: inline-block;
+    border-radius: 2em;
+}
