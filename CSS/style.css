@@ -88,6 +88,10 @@ td{
     text-align: center;
 }
 
+ol li{
+    font-size: 1.6em;
+}
+
 footer{
     display: flex;
     justify-content: center;
