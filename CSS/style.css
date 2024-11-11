@@ -52,8 +52,12 @@ nav a:hover{
 
 section a{
     text-decoration: none;
-    font-size: 1.6em;
+    font-size: 1.0em;
     color: #1698a1;
+}
+
+.project{
+    font-size: 2em;
 }
 
 a:hover{
@@ -68,6 +72,8 @@ a:hover{
     display: inline-block;
     border-radius: 2em;
 }
+
+/* Make table border thicker than table outputs*/
 
 table{
     border: #1698a1 5px solid;
@@ -90,6 +96,31 @@ td{
 
 ol li{
     font-size: 1.6em;
+}
+
+.contact-sentence{
+    font-size: 1.8em;
+}
+
+label, input {
+    display: flex;
+    font-size: 1.3em;
+    justify-content: center;
+    width: 20em;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+#message-box{
+    padding-bottom: 3em;
+   /* overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all; - I tried to make the words wrap inside the text box but couldn't figure out how to do it after an hour of tweaking it.*/
 }
 
 footer{
