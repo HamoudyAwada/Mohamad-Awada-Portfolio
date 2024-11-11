@@ -46,7 +46,7 @@ nav a:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 0.5em solid #8ce6cc;
+    border: 0.5em solid #1698a1;
     border-radius: 4em;
 }
 
@@ -67,4 +67,23 @@ a:hover{
 .icon{
     display: inline-block;
     border-radius: 2em;
+}
+
+table{
+    border: #1698a1 5px solid;
+}
+
+th{
+    border: #1698a1 3px solid;
+    border-radius: 0.35em;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+td{
+    border: #1698a1 2px solid;
+    border-radius: 0.35em;
+    font-size: 1.5em;
+    padding: 0.3em;
+    text-align: center;
 }
