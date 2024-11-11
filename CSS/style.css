@@ -1,3 +1,31 @@
 :root{
     font-size: 62.5%;
 }
+
+h1, h2, h3{
+    font-size: 3rem;
+}
+
+nav ul{
+    font-size: 1.6em;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 1.6em;
+    margin: 1.5em;
+    background-color: #8ce6cc;
+    border-radius: 2em;
+}
+
+nav a{
+    text-decoration: none;
+    border-radius: 5%;
+    color: black;
+    padding: 1em;
+}
+
+nav a:hover{
+    background-color: #1698a1;
+    border-radius: 1.5em;
+    color: white;
+}
