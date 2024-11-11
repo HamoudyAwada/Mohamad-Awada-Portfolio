@@ -3,7 +3,8 @@
 }
 
 h1, h2, h3{
-    font-size: 3rem;
+    font-size: 3em;
+    text-decoration: underline;
 }
 
 nav ul{
@@ -28,4 +29,18 @@ nav a:hover{
     background-color: #1698a1;
     border-radius: 1.5em;
     color: white;
+}
+
+#headshot{
+    border-radius: 10em 3em;
+    box-shadow: 6px 6px 10px #8ce6cc;
+    margin-left: 8em;
+}
+
+#resume{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5em solid #8ce6cc;
+    border-radius: 4em;
 }
