@@ -87,3 +87,11 @@ td{
     padding: 0.3em;
     text-align: center;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 2em;
+}
