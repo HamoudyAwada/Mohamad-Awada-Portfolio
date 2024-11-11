@@ -2,6 +2,10 @@
     font-size: 62.5%;
 }
 
+body p{
+    font-size: 1.6em;
+}
+
 h1, h2, h3{
     font-size: 3em;
     text-decoration: underline;
@@ -19,6 +23,7 @@ nav ul{
 }
 
 nav a{
+    font-size: 1.2em;
     text-decoration: none;
     border-radius: 5%;
     color: black;
@@ -43,4 +48,18 @@ nav a:hover{
     margin-right: auto;
     border: 0.5em solid #8ce6cc;
     border-radius: 4em;
+}
+
+section a{
+    text-decoration: none;
+    font-size: 1.6em;
+    color: #1698a1;
+}
+
+a:hover{
+    color: black;
+}
+
+#email{
+    font-size: 1em;
 }
