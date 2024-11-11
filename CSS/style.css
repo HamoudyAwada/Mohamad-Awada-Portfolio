@@ -37,9 +37,8 @@ nav a:hover{
 }
 
 #headshot{
-    border-radius: 10em 3em;
-    box-shadow: 6px 6px 10px #1698a1;
-    margin-left: 8em;
+    display: block;
+    border-radius: 2em;
 }
 
 #resume{
@@ -121,6 +120,25 @@ label, input {
    /* overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-all; - I tried to make the words wrap inside the text box but couldn't figure out how to do it after an hour of tweaking it.*/
+}
+
+/* Trying out the grid diplay*/
+#mohamad-awada{
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(10, 10%);
+}
+
+#mohamad-awada header{
+    grid-area: 2 / 2 / 3 / 4;
+}
+
+#mohamad-awada p{
+ grid-area: 3 / 2 / 6 / 4
+}
+
+#mohamad-awada img{
+    grid-area: 3 / 4 / 2 / 5;
 }
 
 footer{
