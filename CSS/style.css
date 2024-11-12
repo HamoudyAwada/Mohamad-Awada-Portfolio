@@ -160,7 +160,7 @@ label, input {
 }
 
 #my-resume img{
-    grid-area: 1 / 3 / 9 / 0;
+    grid-area: 1 / 3 / 6 / 5;
 }
 
 #my-recent-work{
@@ -227,15 +227,7 @@ label, input {
     margin-right: 40%;
 }
 
-.about{
-    font-family: "Quicksand", sans-serif, 'Times New Roman', Times, serif;
-}
-
-.contact{
-    font-family: "Quicksand", sans-serif, 'Times New Roman', Times, serif;
-}
-
-.home{
+.about, .contact, .home{
     font-family: "Quicksand", sans-serif, 'Times New Roman', Times, serif;
 }
 
@@ -254,7 +246,12 @@ label, input {
 footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-weight: bold;
+    background-color: grey;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-bottom: 2em;
     font-size: 1.2em;
     padding-top: 2em;
 }
