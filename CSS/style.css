@@ -130,15 +130,15 @@ label, input {
 }
 
 #mohamad-awada header{
-    grid-area: 2 / 2 / 3 / 4;
+    grid-area: 2 / 5 / 3 / 5;
 }
 
 #mohamad-awada p{
-    grid-area: 3 / 2 / 6 / 4
+    grid-area: 4 / 5 / 7 / 5
 }
 
 #mohamad-awada img{
-    grid-area: 3 / 4 / 2 / 5;
+    grid-area: 3 / 6 / 2 / 7;
 }
 
 #my-resume{
@@ -178,21 +178,78 @@ label, input {
 }
 
 #my-recent-work ol{
-grid-area: 4 / 3 / 4 / 4;
+    grid-area: 4 / 3 / 4 / 4;
 }
 
 #my-recent-work #p3{
-grid-area: 4 / 4 / 5 / 5;
+    grid-area: 4 / 4 / 5 / 5;
 }
 
 #my-recent-work #a1{
-grid-area: 4 / 6 / 8 / 8;
+    grid-area: 4 / 6 / 8 / 8;
 }
 
 #my-recent-work #a2{
     grid-area: 6 / 6 / 8 / 8;;
 }
 
+/* back to flex display here*/
+#about-me header{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#about-me p{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 40%;
+}
+
+#who-i-am header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#who-i-am p{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 40%;
+}
+
+#my-hobbies-and-interests header{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#my-hobbies-and-interests p{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 40%;
+}
+
+.about{
+    font-family: "Quicksand", sans-serif, 'Times New Roman', Times, serif;
+}
+
+.contact{
+    font-family: "Quicksand", sans-serif, 'Times New Roman', Times, serif;
+}
+
+.home{
+    font-family: "Quicksand", sans-serif, 'Times New Roman', Times, serif;
+}
+
+.about section:nth-child(even){
+    background-color: #1698a1;
+    padding-bottom: 1em;
+    border-radius: 1em;
+}
+
+.about section:nth-child(odd){
+    background-color: #8ce6cc;
+    padding-bottom: 1em;
+    border-radius: 1em;
+}
 
 footer{
     display: flex;
