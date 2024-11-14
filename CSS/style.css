@@ -192,6 +192,10 @@ label, input {
     grid-area: 6 / 6 / 8 / 8;;
 }
 
+#my-recent-work #a3{
+    grid-area: 8 / 6 / 8 / 8;
+}
+
 /* back to flex display here*/
 #about-me header{
     display: flex;
