@@ -50,7 +50,13 @@
 <br>
 <br>
 <footer>
-    Mohamad Awada © 2024
+    <p>Mohamad Awada © <span id="footer"></span><br> All Rights Reserved</p>
 </footer>
+<script>
+    // Using inline JS here because I want the footer code applied to all pages, but all the rest of the JS code to run on the home page only!
+const footer = document.getElementById("footer");
+const x = new Date();
+footer.textContent = x.getFullYear();
+</script>
 </body>
 </html>
