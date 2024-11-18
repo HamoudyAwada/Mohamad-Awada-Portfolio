@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script defer src="./Javascript/main.js"></script>
 </head>
 <body class="about">
 <main>
@@ -43,11 +44,5 @@
 <footer>
     <p>Mohamad Awada © <span id="footer"></span><br> All Rights Reserved</p>
 </footer>
-<script>
-    // Using inline JS here because I want the footer code applied to all pages, but all the rest of the JS code to run on the home page only!
-const footer = document.getElementById("footer");
-const x = new Date();
-footer.textContent = x.getFullYear();
-</script>
 </body>
 </html>
