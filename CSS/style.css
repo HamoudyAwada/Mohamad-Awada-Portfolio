@@ -140,24 +140,26 @@ label, input {
 }
 
 #btn-alert{
-    grid-area: 8 / 5 / 9 / span 2;
+    grid-area: 7 / 5 / 7 / span 2;
     border-radius: 2em;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    padding: 0.5em;
+    padding: 0.7em;
     font-weight: bold;
     background-color: #1698a1;
     color: white;
 }
 
 #btn-alert:hover{
-    grid-area: 8 / 5 / 9 / span 2;
+    grid-area: 7 / 5 / 7 / span 2;
     border-radius: 2em;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.7em;
     font-weight: bold;
     background-color: #8ce6cc;
     color: white;
