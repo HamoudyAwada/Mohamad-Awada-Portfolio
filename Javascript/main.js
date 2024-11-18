@@ -18,3 +18,8 @@ const greetingText = () => {
     }
 };
 greetingElement.textContent = greetingText();
+
+const clickme = document.getElementById('btn-alert')
+clickme.addEventListener('click', function(){
+    alert('Welcome to my online portfolio!')
+})
