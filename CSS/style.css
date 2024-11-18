@@ -141,12 +141,25 @@ label, input {
 
 #btn-alert{
     grid-area: 8 / 5 / 9 / span 2;
-    border-radius: 1em;
+    border-radius: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.5em;
+    font-weight: bold;
+    background-color: #1698a1;
+    color: white;
+}
+
+#btn-alert:hover{
+    grid-area: 8 / 5 / 9 / span 2;
+    border-radius: 2em;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
     font-weight: bold;
-    background-color: #1698a1;
+    background-color: #8ce6cc;
     color: white;
 }
 

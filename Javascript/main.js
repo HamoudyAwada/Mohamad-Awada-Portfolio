@@ -28,3 +28,10 @@ clickme.addEventListener('click', function(){
     alert('Welcome to my online portfolio!')
 })
 
+//changes the button when hovered over and change back after
+clickme.onmouseover = function(){
+    clickme.innerText = 'Do it!'
+};
+clickme.onmouseout = function(){
+    clickme.innerText = 'Click Me!'
+};
